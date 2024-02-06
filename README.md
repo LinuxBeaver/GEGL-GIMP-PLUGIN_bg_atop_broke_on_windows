@@ -1,27 +1,22 @@
-## Pixel Text Gimp Plugin
-Make retro gaming text in Gimp using this plugin 
+## Put the background layer on top using this Gimp Plugin
+This GEGL powered Gimp plugin renders a inverted transparency color fill with the option of a image file overlay. This plugin is meant to be applied on a duplicate layer above your transparent image. What makes this plugin unique and gives it its name  is the ability to put a layer that is usually considered a "background fill/pattern" above. With the blur and other options it also coats the original image with a inner glow effect. 
 
-![image preview](/previews/preview0.png)
+![image preview](/previews/focus_applying_on_removed_background.png)
 
-![image preview](/previews/preview1.png)
+![image preview](/previews/focus_layer_above.png)
 
 ## Location to put binaries (they don't go in the normal plugins folder)
 
-Windows
-
+**Windows**
  C:\Users\(USERNAME)\AppData\Local\gegl-0.4\plug-ins
  
- Linux 
-
+**Linux**
  /home/(USERNAME)/.local/share/gegl-0.4/plug-ins
  
- Linux (Flatpak includes Chromebook)
+**Linux (Flatpak includes Chromebook)**
+/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins
 
- /home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins
-
-
-Then restart Gimp and go to GEGL operation and look for "pixel text"
-
+Then restart Gimp and go to GEGL operation and look for "Background on Top Layer"
 
 ## Compiling and Installing
 
@@ -61,9 +56,9 @@ meson setup --buildtype=release build
 ninja -C build
 ```
 
-## another preview of this based plugin
+## another preview of this based with a image file overlay
 
-![image preview](/previews/preview2.png)
+![image preview](/previews/image_file_used.png)
 
 
 
