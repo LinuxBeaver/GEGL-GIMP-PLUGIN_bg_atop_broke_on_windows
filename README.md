@@ -56,9 +56,12 @@ meson setup --buildtype=release build
 ninja -C build
 ```
 
-## another preview of this based with a image file overlay
+## other previews of this based with a image file overlay
 
 ![image preview](/previews/image_file_used.png)
+
+![image](https://github.com/LinuxBeaver/Gimp_Background_layer_on_top_plugin/assets/78667207/be0e0e45-fead-4eb0-a342-d4b9be24d87d)
+
 
 
 
