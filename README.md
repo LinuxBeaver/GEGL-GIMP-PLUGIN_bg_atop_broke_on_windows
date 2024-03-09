@@ -1,3 +1,5 @@
+THIS PLUGIN CAUSES GIMP 3 TO  CRASH SO ITS BINARY IS NOT AVALIBLE ANYMORE
+
 ## Put the background layer on top using this Gimp Plugin
 This GEGL powered Gimp plugin renders a inverted transparency color fill with the option of a image file overlay. This plugin is meant to be applied on a duplicate layer above your transparent image. What makes this plugin unique and gives it its name  is the ability to put a layer that is usually considered a "background fill/pattern" above. With the blur and other options it also coats the original image with a inner glow effect. 
 
