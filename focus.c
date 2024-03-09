@@ -152,7 +152,7 @@ static void attach (GeglOperation *operation)
 
       gegl_node_link_many (input, it, median, gaus, col, atop, opacity, output, NULL);
       gegl_node_link_many (image, gaus2, sharpen, huelight, NULL);
-      gegl_node_connect_from (atop, "aux", huelight, "output");
+      gegl_node_connect (atop, "aux", huelight, "output");
 }
 
 static void
