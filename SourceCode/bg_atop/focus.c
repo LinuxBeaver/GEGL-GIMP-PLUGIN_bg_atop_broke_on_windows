@@ -171,7 +171,7 @@ gegl_op_class_init (GeglOpClass *klass)
     "description", _("Invert transparency of an alpha defined channel and then make a blurred color fill (with possibly an image) that focuses on the subject/object. This puts the background layer on a layer above instead of below like usual."
                      ""),
     "gimp:menu-path", "<Image>/Filters/Light and Shadow/",
-    "gimp:menu-label", _("Background on top layer."),
+    "gimp:menu-label", _("Background on top layer..."),
     NULL);
 }
 
