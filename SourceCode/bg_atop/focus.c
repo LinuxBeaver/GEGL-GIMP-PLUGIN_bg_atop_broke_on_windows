@@ -13,7 +13,7 @@
  * You should have received a copy of the GNU Lesser General Public
  * License along with GEGL; if not, see <https://www.gnu.org/licenses/>.
  *
- * Copyright 2006 Øyvind Kolås <pippin@gimp.org>
+ * Credit to Øvind Kolas (pippin) for major GEGL contributions
  * 2024 Beaver, Background on top
 
 This is the GEGL syntax for "background on top". Paste it in GEGL Graph to use it without installing
